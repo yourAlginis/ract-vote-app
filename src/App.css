@@ -1,0 +1,90 @@
+ .hero-figure {
+    position: relative; 
+}
+
+
+ .hero-figure .img_bg{
+    background: url("./assets/images/web3.jpg")  ;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    opacity: 0.5;
+    position: relative;
+
+
+}
+  .hero-figure h3{
+ top: 25.5%;
+ left:center;
+ position: absolute; 
+ text-shadow: 2px 2px 4px #929292,4px 4px 4px #54146e;
+}
+.hero-figure h3 .text-color-primary{
+
+ text-shadow: 2px 2px 4px #000000;
+}
+#btn_pay{
+  border-radius: 80px !important
+
+}
+
+.heroVoting_content {
+  position: relative; 
+}
+.heroVoting_content .img_bg_vot {
+  background: url("./assets/images/voting2.jpg")  ;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
+  opacity: 0.5;
+  position: relative;
+}
+.heroVoting_content .votingAddress{
+
+ top: 25.5%;
+ left:46%;
+ position: absolute; 
+ text-shadow: 2px 2px 4px #929292,4px 4px 4px #54146e;  
+}
+#btn_id_voting{ 
+  border-radius: 80px
+}
+.ballot_explain_text{
+
+}
+#home-tab,#profile-tab,#contact-tab{
+  color: #6163ff !important;
+  background-color: #fff !important;
+  margin-left: 10px;
+}
+#home-tab:hover,#profile-tab:hover,#contact-tab:hover{ 
+  background-color: rgb(216, 216, 216) !important; 
+  transition: all 1s ease;
+}
+#walletConnect{
+  background-color: #e2e2e2;
+}
+
+.heroPayment_content {
+  position: relative;
+}
+.heroPayment_content .img_bg_pay {
+
+  background: url("./assets/images/PAYMENT3.jpg")  ;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
+  opacity: 0.5;
+  position: relative;
+}
+#btn_id_payment_link{
+  color: #fff;
+  background: transparent;
+  font-weight: 900;
+}
+#btn_id_payment_link a {
+  text-decoration:underline;
+}
